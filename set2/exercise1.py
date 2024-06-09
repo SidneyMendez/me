@@ -17,20 +17,22 @@ import platform
 # I think this will print "hello! Let's get started" by calling the print function.
 print("hello! Let's get started")  # it printed "hello! Let's get started"
 
+# i think it will declare a variable called some_words
+# and itll put a list of strings into it
 some_words = ["what", "does", "this", "line", "do", "?"]
-
+#for every word in the list it will print that word
 for word in some_words:
     print(word)
-
+#for every word in the list it will print that word
 for x in some_words:
     print(x)
-
+#this will print the entire list of words in one 
 print(some_words)
-
+#will show if it is true or false, says it has more than 3 words
 if len(some_words) > 3:
     print("some_words contains more than 3 words")
 
-
+#show properties of pc
 def usefulFunction():
     """
     You may want to look up what uname does before you guess
