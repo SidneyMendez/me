@@ -17,7 +17,12 @@ def loop_ranger(start, stop=None, step=1):
     Look up for how range() works in the python docs. You could  answer this
     with just the range function, but we'd like you to do it the long way.
     """
-    return None
+    new_list = []
+
+    for i in range(start, stop, step):
+        new_list.append(i)
+    
+    return new_list
 
 
 def two_step_ranger(start, stop):
@@ -28,7 +33,12 @@ def two_step_ranger(start, stop):
 
     You can either reuse loop_ranger, or the range function that in the standard library
     """
-    return None
+    new_list = []
+
+    for i in range(start, stop, 2):
+        new_list.append(i)
+
+    return new_list
 
 
 def stubborn_asker(low, high):
@@ -39,7 +49,21 @@ def stubborn_asker(low, high):
 
     Look up the docs for a function called "input"
     """
-    return None
+    message = "Give number between {low}, and {high}: ".format(low=low, high=high)
+
+    
+    while True:
+        input_number = int(input(message))
+
+
+        if low < input_number < high:
+        # if 30 < inpur number < high 
+            print("The number {} is correct".format(input_number))
+            return input_number
+            
+        else:
+            print("{input} isn't between {low} and {high}".format(input = input_number, low=low, high=high))
+
 
 
 def not_number_rejector(message):
@@ -49,7 +73,13 @@ def not_number_rejector(message):
     (e.g. "cow", "six", "8!") then throw it out and ask for an actual number.
     When you do get a number, return it.
     """
-    return None
+    while True:
+        try:
+            input_number = (input(message))
+            print("thanks, {} is a number.".format(input_number))
+        except ValueError:
+            print("nah, thats not a number.")
+        return input_number
 
 
 def super_asker(low, high):
@@ -58,7 +88,24 @@ def super_asker(low, high):
     Combine what you learnt from stubborn_asker and not_number_rejector
     to make a function that does it all!
     """
-    return None
+    message = "Give number between {low}, and {high}: ".format(low=low, high=high)
+
+    
+    while True:
+        try:
+            input_number = int(input(message))
+
+
+            if low < input_number < high:
+        
+                print("The number {} is correct".format(input_number))
+                return input_number
+        
+            else:
+                print("{input} isn't between {low} and {high}".format(input = input_number, low=low, high=high))
+
+        except ValueError:
+            print("nah, thats not a number.")
 
 
 if __name__ == "__main__":
