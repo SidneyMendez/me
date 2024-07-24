@@ -239,7 +239,15 @@ def make_filler_text_dictionary() -> dict:
 
     url = "https://us-central1-waldenpondpress.cloudfunctions.net/give_me_a_word?wordlength="
     wd = {}
-
+    for length in range (3, 8):
+        words = []
+        while len(words) < 4:
+            response = requests.get(url + str(length))
+            word = response.text.strip()
+            if word: 
+                words.append(word)
+        wd[length] = words
+    
     return wd
 
 
