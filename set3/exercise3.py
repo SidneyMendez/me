@@ -1,4 +1,4 @@
-"""Set 3, Exercise 3.
+"""Set 3, Exercise 3.s
 
 Steps on the way to making your own guessing game.
 """

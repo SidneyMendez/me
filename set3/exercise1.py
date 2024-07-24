@@ -1,4 +1,4 @@
-# -*- coding: UTF-8 -*-
+# -*- coding: UTF-8 -*- f
 """Set 3, Exercise 1.
 
 Modify each function until the tests pass.

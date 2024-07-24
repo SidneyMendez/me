@@ -18,12 +18,15 @@ def is_odd(a_number):
 
     So if a_number modulo two is zero, then it's even.
     """
-    if (a_number) % 2 == 0:
-        return False
+    
+    if a_number % 2 == 0:
+        return 'True'
+    elif a_number == 0:
+        return "i dont know"
     else:
-        return True
-    return None
+        return 'False'
 
+    
 
 def fix_it(moves=True, should_move=True):
     """Decide what to do.
@@ -40,14 +43,18 @@ def fix_it(moves=True, should_move=True):
     Most people write this function with 4 return statements.
     As an extra challenge, see if you can get that down to three.
     """
-    if moves == should_move:
-        return "No Problem"
-    elif moves and not should_move:
-        return "Duct Tape"
+    if moves == should_move: #its the same either true or false 
+        return "No problem"
     elif not moves and should_move:
         return "WD-40"
+    elif moves and not should_move:
+        return "Duct Tape"
     else:
-        return "something is not right"
+        return "Problem there lad"
+
+        
+
+
     
 
 
@@ -58,10 +65,14 @@ def loops_preview():
     return a list of 8 items, each one a string with exacly one 💩 in it.
     E.g.: ['💩', '💩', '💩', '💩', '💩', '💩', '💩', '💩']
     """
-    choc_list = []
-    for i in range(8):
-        choc_list.append("💩")
-    return choc_list
+    poop_list = []
+
+    for i in range (8):
+        poop_list.append ('💩')
+    
+    return poop_list
+
+
 
 
 def loops_1a():
@@ -88,9 +99,10 @@ def loops_1c(number_of_items=5, symbol="#"):
     or the symbol, let it be whatever it wants to be.
     """
     hash_list = []
-    for _ in range(number_of_items):
-        hash_list.append(symbol)
+    for i in range(5):
+        hash_list.append ('#')
     return hash_list
+
 
 
 def loops_2_preview():
@@ -105,13 +117,14 @@ def loops_2_preview():
             ['💩', '💩', '💩', '💩'],
           ]
     """
-    field = []
-    for i in range(4):
+    field_of_poop = []
+    for i in range (4):
         row = []
-        for j in range(4):
-            row.append("💩")
-        field.append(row)
-    return field
+        for j in range (4):
+            row.append('💩')
+            
+
+
 
 
 def loops_2():

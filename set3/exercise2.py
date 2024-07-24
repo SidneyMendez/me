@@ -1,4 +1,4 @@
-"""Set 3, Exercise 2.
+"""Set 3, Exercise 2.s
 
 An example of how a guessing game might be written.
 Play it through a few times, but also stress test it. What if your lower bound 

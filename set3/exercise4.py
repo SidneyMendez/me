@@ -1,4 +1,4 @@
-# -*- coding: UTF-8 -*-
+# -*- coding: UTF-8 -*-s
 """Set 3, Exercise 4."""
 
 import math
