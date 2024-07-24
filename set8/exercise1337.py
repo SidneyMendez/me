@@ -288,10 +288,33 @@ def fast_filler(number_of_words=200) -> str:
     it'll convert integer keys to strings.
     If you get this one to work, you are a Very Good Programmer™!
     """
-
+    
     fname = "dict_cache.json"
 
-    return None
+    if os.path.exists(fname):
+
+        with open(fname, "r") as file:
+            my_dict = json.load(file)
+    
+            my_dict = {int(k): v for k, v in my_dict.items()}
+    else:
+    
+        my_dict = make_filler_text_dictionary()
+        with open(fname, "w") as file:
+            json.dump(my_dict, file)
+
+
+    words = []
+    while len(words) < number_of_words:
+        length = random.randint(3, 7) 
+        if length in my_dict:
+            word = random.choice(my_dict[length]) 
+            words.append(word)
+
+
+    filler_text = " ".join(words).capitalize() + "."
+
+    return filler_text
 
 
 if __name__ == "__main__":
