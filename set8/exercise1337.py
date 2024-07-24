@@ -200,7 +200,14 @@ def best_letter_for_pets() -> str:
     import string
 
     the_alphabet = string.ascii_lowercase
+    highest_count = 0
     most_popular_letter = ""
+
+    for letter in the_alphabet:
+        count = len(pet_filter(letter))
+        if count > highest_count:
+            highest_count = count
+            most_popular_letter = letter
 
     return most_popular_letter
 
