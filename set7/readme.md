@@ -1,1 +1,8 @@
 TODO: Reflect on what you learned this week and what is still unclear.
+With a reliable dataset now at my disposal, I decided to focus my analysis on chess openings. The opening phase of a chess game is critical, often setting the tone for the rest of the match. Different openings can lead to vastly different midgame positions, and understanding the success rates of various openings across different levels of play is crucial for any chess player looking to improve their game.
+
+My approach will involve categorizing the games based on their opening moves and analyzing their outcomes relative to the players' Elo ratings. This will help me identify patterns—such as which openings are more successful at higher levels and which might be overused or underappreciated at lower levels. 
+
+ I encountered a new challenge—deciding exactly what aspects of the opening games I should focus on. With so many possibilities for analysis, from win rates to positional advantages, it was initially overwhelming to pinpoint the most meaningful direction. I found myself struggling to determine what specific metrics would yield the most valuable insights.
+
+However, as I reflected on my own chess journey, particularly my goal of increasing my Elo, the path forward became clearer. I realized that my analysis could be driven by the same questions I’ve been asking myself as I try to improve my own game: Which openings are most effective for players at my level? How do these openings perform as players move up the ranks? What can I learn from the success and failures of these strategies?

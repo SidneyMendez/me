@@ -1,1 +1,4 @@
 TODO: Reflect on what you learned this week and what is still unclear.
+The cornerstone of any data-driven project is the credibility of the data itself. In the context of chess, this meant sourcing games from platforms and databases that are widely recognized in the chess community for their accuracy and completeness. I spent a considerable amount of time researching various online databases, such as Lichess and Chess.com, which are renowned for their large user bases and rigorous data collection methods.
+
+The challenge wasn't just in finding games but in ensuring that these games were representative of different Elo ranges, playing styles, and opening strategies. I had to filter through vast amounts of data, cross-referencing games to ensure that they were not only legitimate but also relevant to the specific insights I aimed to uncover.

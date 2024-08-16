@@ -1,1 +1,6 @@
 TODO: Reflect on what you learned this week and what is still unclear.
+Reflecting on my recent exam, I can confidently say it was a challenging yet rewarding experience. Throughout the test, I found myself applying concepts and skills that I’ve been steadily building over the past few weeks. It was particularly cool to see just how much I’ve learned and how far I’ve come since starting this journey.
+
+There were moments during the exam where I encountered particularly difficult questions. In these instances, I turned to ChatGPT for assistance. I relied on it sparingly, only when I felt truly stuck and needed a nudge in the right direction. Using ChatGPT in this way helped me navigate some of the more complex problems without feeling overwhelmed, while still allowing me to engage deeply with the material on my own.
+
+One of the most memorable parts of the exam was the last question. I struggled with it for quite some time, and it was frustrating not to see immediate progress. The issue was rooted in some tricky syntax errors that I just couldn’t spot at first. However, by taking a step back and carefully reviewing my code, I was finally able to identify and fix the mistakes. That moment of clarity was incredibly satisfying, and it reminded me of the importance of persistence and attention to detail.
